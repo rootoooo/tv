@@ -234,7 +234,7 @@ function initializePageContent() {
     }
 
     // 设置页面标题
-    document.title = currentVideoTitle + ' - 发现TV';
+    document.title = currentVideoTitle + ' - 皮皮虾';
     document.getElementById('videoTitle').textContent = currentVideoTitle;
 
     // 初始化播放器
@@ -398,13 +398,13 @@ function initPlayer(videoUrl, sourceCode) {
         chromecast: true,                // 启用Chromecast投屏功能
         contextmenu: [                   // 自定义右键菜单
             {
-                text: '关于发现TV',
-                link: 'https://github.com/myfreeport/FaXianTV'
+                text: '众里寻他千百度',
+                link: 'https://like.haoss.eu.org'
             },
             {
-                text: '问题反馈',
+                text: '蓦然回首，那人却在，灯火阑珊处！',
                 click: (player) => {
-                    window.open('https://github.com/myfreeport/FaXianTV/issues', '_blank');
+                    window.open('https://like.haoss.eu.org', '_blank');
                 }
             }
         ],
