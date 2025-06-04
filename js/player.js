@@ -398,13 +398,13 @@ function initPlayer(videoUrl, sourceCode) {
         chromecast: true,                // 启用Chromecast投屏功能
         contextmenu: [                   // 自定义右键菜单
             {
-                text: '众里寻他千百度',
-                link: 'https://like.haoss.eu.org'
+                text: '轻舟已过万重山',
+                link: 'https://tv.haoss.eu.org'
             },
             {
-                text: '蓦然回首，那人却在，灯火阑珊处！',
+                text: '前路漫漫亦灿灿',
                 click: (player) => {
-                    window.open('https://like.haoss.eu.org', '_blank');
+                    window.open('https://tv.haoss.eu.org', '_blank');
                 }
             }
         ],
