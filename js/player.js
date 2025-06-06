@@ -404,7 +404,12 @@ function initPlayer(videoUrl, sourceCode) {
             {
                 text: '前路漫漫亦灿灿',
                 click: (player) => {
-                    window.open('https://tv.haoss.eu.org', '_blank');
+                    const videoElement = player.video;
+                    if (videoElement.requestPictureInPicture) {
+                        videoElement.requestPictureInPicture();
+                    } else {
+                        alert('您的浏览器不支持画中画功能');
+                    }
                 }
             }
         ],
