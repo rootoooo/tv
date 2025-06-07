@@ -398,11 +398,11 @@ function initPlayer(videoUrl, sourceCode) {
         chromecast: true,                // 启用Chromecast投屏功能
         contextmenu: [                   // 自定义右键菜单
             {
-                text: '关关难过关关过',
+                text: '首页',
                 link: 'https://tv.haoss.eu.org'
             },
             {
-                text: '前路漫漫亦灿灿',
+                text: '画中画',
                 click: (player) => {
                     const videoElement = player.video;
                     if (videoElement.requestPictureInPicture) {
