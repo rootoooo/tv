@@ -398,7 +398,7 @@ function initPlayer(videoUrl, sourceCode) {
         chromecast: true,                // 启用Chromecast投屏功能
         contextmenu: [                   // 自定义右键菜单
             {
-                text: '轻舟已过万重山',
+                text: '关关难过关关过',
                 link: 'https://tv.haoss.eu.org'
             },
             {
