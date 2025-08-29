@@ -1,0 +1,18 @@
+{
+    "name": "皮皮虾",
+    "short_name": "皮皮虾",
+    "description": "梦里啥都有",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0f1622",
+    "theme_color": "#000000",
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-status-bar-style": "black",
+    "icons": [
+      {
+        "src": "./image/retrotv_5520.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
