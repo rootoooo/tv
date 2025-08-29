@@ -89,7 +89,7 @@ const API_SITES = {
         name: '无尽资源'
     },
     jjzy: {
-        api: 'https://jinyingzy.com/api.php/provide/vod/',
+        api: 'https://jinyingzy.com/api.php/provide/vod',
         name: '金鹰资源'
     },
     ikun: {
