@@ -4,7 +4,7 @@ services:
     image: bestzwei/libretv:latest
     container_name: libretv
     ports:
-      - "8899:80"
+      - "52001:80"
     environment:
-      - PASSWORD=${PASSWORD:-666666}
+      # - PASSWORD=${PASSWORD:-666666}
     restart: unless-stopped
