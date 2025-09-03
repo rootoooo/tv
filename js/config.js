@@ -22,21 +22,17 @@ const SITE_CONFIG = {
 // API站点配置
 const API_SITES = {
     dyttzy: {
-        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
-        name: '电影天堂资源',
-        detail: 'http://caiji.dyttzyapi.com', 
-    },
-    bfzy: {
-        api: 'https://bfzyapi.com/api.php/provide/vod',
-        name: '暴风资源720P',
+    dbzy: {
+        api: 'https://dbzy.com/api.php/provide/vod',
+        name: '豆瓣资源'，
     },
     zy360: {
         api: 'https://360zy.com/api.php/provide/vod',
-        name: '360资源1080',
+        name: '360资源',
     },
-    dbzy: {
-        api: 'https://dbzy.com/api.php/provide/vod',
-        name: '豆瓣资源',
+    bfzy: {
+        api: 'https://bfzyapi.com/api.php/provide/vod',
+        name: '暴风资源',
     },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
