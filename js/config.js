@@ -35,6 +35,10 @@ const API_SITES = {
         api: 'https://bfzyapi.com/api.php/provide/vod',
         name: '暴风资源',
     },
+    dbzy: {
+        api: 'https://dbzy.com/api.php/provide/vod',
+        name: '豆瓣资源',
+    },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
